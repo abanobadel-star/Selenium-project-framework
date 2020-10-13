@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.pixelogic.tests.UserRegistrationTest">
+        <methods>
+          <include name="validemailexsit" invocation-numbers="0 1"/>
+          <include name="startdriver"/>
+          <include name="validpasswordmustatleastsixcharacter" invocation-numbers="0"/>
+          <include name="validfirstnamewithcaptialletter" invocation-numbers="0 1"/>
+          <include name="takeScreenShotOnFailureAndClosebrowser"/>
+          <include name="ValidPasswordHasATLeastOneCapitalLetter" invocation-numbers="0 1"/>
+          <include name="validMobileNumber" invocation-numbers="0 1"/>
+          <include name="validlastNameNotsameasFirstname" invocation-numbers="0 1"/>
+          <include name="ValidPasswordAndComfirmPasswordMatch" invocation-numbers="0 1"/>
+          <include name="userregister" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- com.pixelogic.tests.UserRegistrationTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

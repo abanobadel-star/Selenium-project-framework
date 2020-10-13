@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [create]">
+  <test thread-count="5" name="test(failed)">
+    <classes>
+      <class name="com.pixelogic.tests.UserRegistrationTest">
+        <methods>
+          <include name="startdriver"/>
+          <include name="userregister"/>
+        </methods>
+      </class> <!-- com.pixelogic.tests.UserRegistrationTest -->
+    </classes>
+  </test> <!-- test(failed) -->
+</suite> <!-- Failed suite [create] -->
