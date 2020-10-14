@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="14" ignored="0" total="17" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="371417" started-at="2020-10-13T11:54:37 EET" finished-at="2020-10-13T12:00:49 EET">
+  <suite name="Default suite" duration-ms="388326" started-at="2020-10-14T09:35:21 EET" finished-at="2020-10-14T09:41:50 EET">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="371417" started-at="2020-10-13T11:54:37 EET" finished-at="2020-10-13T12:00:49 EET">
+    <test name="Default test" duration-ms="388326" started-at="2020-10-14T09:35:21 EET" finished-at="2020-10-14T09:41:50 EET">
       <class name="com.pixelogic.tests.UserRegistrationTest">
-        <test-method status="PASS" signature="startdriver(java.lang.String)[pri:0, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="startdriver" is-config="true" duration-ms="10608" started-at="2020-10-13T11:54:38 EET" finished-at="2020-10-13T11:54:49 EET">
+        <test-method status="PASS" signature="startdriver(java.lang.String)[pri:0, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="startdriver" is-config="true" duration-ms="37006" started-at="2020-10-14T09:35:23 EET" finished-at="2020-10-14T09:36:00 EET">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startdriver -->
-        <test-method status="PASS" signature="userregister(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="userregister" duration-ms="4515" started-at="2020-10-13T11:54:49 EET" data-provider="userdata" finished-at="2020-10-13T11:54:53 EET">
+        <test-method status="PASS" signature="userregister(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="userregister" duration-ms="8920" started-at="2020-10-14T09:36:00 EET" data-provider="userdata" finished-at="2020-10-14T09:36:09 EET">
           <params>
             <param index="0">
               <value>
@@ -49,7 +49,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userregister -->
-        <test-method status="PASS" signature="takeScreenShotOnFailureAndClosebrowser(org.testng.ITestResult)[pri:0, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="takeScreenShotOnFailureAndClosebrowser" is-config="true" duration-ms="1361" started-at="2020-10-13T11:54:53 EET" finished-at="2020-10-13T11:54:54 EET">
+        <test-method status="PASS" signature="takeScreenShotOnFailureAndClosebrowser(org.testng.ITestResult)[pri:0, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="takeScreenShotOnFailureAndClosebrowser" is-config="true" duration-ms="3410" started-at="2020-10-14T09:36:09 EET" finished-at="2020-10-14T09:36:12 EET">
           <params>
             <param index="0">
               <value>
@@ -60,7 +60,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShotOnFailureAndClosebrowser -->
-        <test-method status="PASS" signature="startdriver(java.lang.String)[pri:0, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="startdriver" is-config="true" duration-ms="13878" started-at="2020-10-13T11:54:54 EET" finished-at="2020-10-13T11:55:08 EET">
+        <test-method status="PASS" signature="startdriver(java.lang.String)[pri:0, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="startdriver" is-config="true" duration-ms="14557" started-at="2020-10-14T09:36:12 EET" finished-at="2020-10-14T09:36:26 EET">
           <params>
             <param index="0">
               <value>
@@ -71,7 +71,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startdriver -->
-        <test-method status="FAIL" signature="userregister(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="userregister" duration-ms="1958" started-at="2020-10-13T11:55:08 EET" data-provider="userdata" finished-at="2020-10-13T11:55:10 EET">
+        <test-method status="FAIL" signature="userregister(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="userregister" duration-ms="1901" started-at="2020-10-14T09:36:26 EET" data-provider="userdata" finished-at="2020-10-14T09:36:28 EET">
           <params>
             <param index="0">
               <value>
@@ -146,7 +146,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userregister -->
-        <test-method status="PASS" signature="takeScreenShotOnFailureAndClosebrowser(org.testng.ITestResult)[pri:0, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="takeScreenShotOnFailureAndClosebrowser" is-config="true" duration-ms="6236" started-at="2020-10-13T11:55:10 EET" finished-at="2020-10-13T11:55:17 EET">
+        <test-method status="PASS" signature="takeScreenShotOnFailureAndClosebrowser(org.testng.ITestResult)[pri:0, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="takeScreenShotOnFailureAndClosebrowser" is-config="true" duration-ms="2522" started-at="2020-10-14T09:36:28 EET" finished-at="2020-10-14T09:36:31 EET">
           <params>
             <param index="0">
               <value>
@@ -157,7 +157,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShotOnFailureAndClosebrowser -->
-        <test-method status="PASS" signature="startdriver(java.lang.String)[pri:0, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="startdriver" is-config="true" duration-ms="30352" started-at="2020-10-13T11:55:17 EET" finished-at="2020-10-13T11:55:47 EET">
+        <test-method status="PASS" signature="startdriver(java.lang.String)[pri:0, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="startdriver" is-config="true" duration-ms="10464" started-at="2020-10-14T09:36:31 EET" finished-at="2020-10-14T09:36:41 EET">
           <params>
             <param index="0">
               <value>
@@ -168,11 +168,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startdriver -->
-        <test-method status="PASS" signature="getResponseSignUP()[pri:2, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="getResponseSignUP" duration-ms="8836" started-at="2020-10-13T11:55:47 EET" finished-at="2020-10-13T11:55:56 EET">
+        <test-method status="PASS" signature="getResponseSignUP()[pri:2, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="getResponseSignUP" duration-ms="14164" started-at="2020-10-14T09:36:41 EET" finished-at="2020-10-14T09:36:56 EET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResponseSignUP -->
-        <test-method status="PASS" signature="takeScreenShotOnFailureAndClosebrowser(org.testng.ITestResult)[pri:0, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="takeScreenShotOnFailureAndClosebrowser" is-config="true" duration-ms="750" started-at="2020-10-13T11:55:56 EET" finished-at="2020-10-13T11:55:57 EET">
+        <test-method status="PASS" signature="takeScreenShotOnFailureAndClosebrowser(org.testng.ITestResult)[pri:0, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="takeScreenShotOnFailureAndClosebrowser" is-config="true" duration-ms="2162" started-at="2020-10-14T09:36:56 EET" finished-at="2020-10-14T09:36:58 EET">
           <params>
             <param index="0">
               <value>
@@ -183,7 +183,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShotOnFailureAndClosebrowser -->
-        <test-method status="PASS" signature="startdriver(java.lang.String)[pri:0, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="startdriver" is-config="true" duration-ms="14162" started-at="2020-10-13T11:55:57 EET" finished-at="2020-10-13T11:56:11 EET">
+        <test-method status="PASS" signature="startdriver(java.lang.String)[pri:0, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="startdriver" is-config="true" duration-ms="12774" started-at="2020-10-14T09:36:58 EET" finished-at="2020-10-14T09:37:11 EET">
           <params>
             <param index="0">
               <value>
@@ -194,7 +194,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startdriver -->
-        <test-method status="FAIL" signature="validfirstnamewithcaptialletter(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="validfirstnamewithcaptialletter" duration-ms="12791" started-at="2020-10-13T11:56:11 EET" data-provider="userdata" finished-at="2020-10-13T11:56:24 EET">
+        <test-method status="FAIL" signature="validfirstnamewithcaptialletter(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="validfirstnamewithcaptialletter" duration-ms="21637" started-at="2020-10-14T09:37:11 EET" data-provider="userdata" finished-at="2020-10-14T09:37:32 EET">
           <params>
             <param index="0">
               <value>
@@ -230,8 +230,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
 System info: host: 'DESKTOP-D6E6O6F', ip: '192.168.93.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_60'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\sony\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53502}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: e85f87de9ecfb01df5cd30f08151cdca
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\sony\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53020}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 19d24e606676c7cf2d61b3de0d8b6af2
 *** Element info: {Using=xpath, value=//div[@class='alert alert-danger']}]]>
             </message>
             <full-stacktrace>
@@ -241,8 +241,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
 System info: host: 'DESKTOP-D6E6O6F', ip: '192.168.93.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_60'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\sony\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53502}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: e85f87de9ecfb01df5cd30f08151cdca
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\sony\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53020}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 19d24e606676c7cf2d61b3de0d8b6af2
 *** Element info: {Using=xpath, value=//div[@class='alert alert-danger']}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -261,8 +261,8 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 at com.sun.proxy.$Proxy12.getText(Unknown Source)
-at com.pixelogic.pages.Registerpage.getErrorvalidationMessage(Registerpage.java:80)
-at com.pixelogic.tests.UserRegistrationTest.validfirstnamewithcaptialletter(UserRegistrationTest.java:87)
+at com.pixelogic.pages.Registerpage.getErrorvalidationMessage(Registerpage.java:79)
+at com.pixelogic.tests.UserRegistrationTest.validfirstnamewithcaptialletter(UserRegistrationTest.java:80)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -297,7 +297,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validfirstnamewithcaptialletter -->
-        <test-method status="PASS" signature="takeScreenShotOnFailureAndClosebrowser(org.testng.ITestResult)[pri:0, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="takeScreenShotOnFailureAndClosebrowser" is-config="true" duration-ms="1312" started-at="2020-10-13T11:56:24 EET" finished-at="2020-10-13T11:56:25 EET">
+        <test-method status="PASS" signature="takeScreenShotOnFailureAndClosebrowser(org.testng.ITestResult)[pri:0, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="takeScreenShotOnFailureAndClosebrowser" is-config="true" duration-ms="2755" started-at="2020-10-14T09:37:32 EET" finished-at="2020-10-14T09:37:35 EET">
           <params>
             <param index="0">
               <value>
@@ -308,7 +308,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShotOnFailureAndClosebrowser -->
-        <test-method status="PASS" signature="startdriver(java.lang.String)[pri:0, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="startdriver" is-config="true" duration-ms="9113" started-at="2020-10-13T11:56:25 EET" finished-at="2020-10-13T11:56:34 EET">
+        <test-method status="PASS" signature="startdriver(java.lang.String)[pri:0, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="startdriver" is-config="true" duration-ms="11562" started-at="2020-10-14T09:37:35 EET" finished-at="2020-10-14T09:37:47 EET">
           <params>
             <param index="0">
               <value>
@@ -319,7 +319,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startdriver -->
-        <test-method status="FAIL" signature="validfirstnamewithcaptialletter(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="validfirstnamewithcaptialletter" duration-ms="2074" started-at="2020-10-13T11:56:34 EET" data-provider="userdata" finished-at="2020-10-13T11:56:36 EET">
+        <test-method status="FAIL" signature="validfirstnamewithcaptialletter(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="validfirstnamewithcaptialletter" duration-ms="2112" started-at="2020-10-14T09:37:47 EET" data-provider="userdata" finished-at="2020-10-14T09:37:49 EET">
           <params>
             <param index="0">
               <value>
@@ -359,7 +359,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:140)
 at org.testng.Assert.assertEquals(Assert.java:122)
 at org.testng.Assert.assertEquals(Assert.java:629)
 at org.testng.Assert.assertEquals(Assert.java:639)
-at com.pixelogic.tests.UserRegistrationTest.validfirstnamewithcaptialletter(UserRegistrationTest.java:88)
+at com.pixelogic.tests.UserRegistrationTest.validfirstnamewithcaptialletter(UserRegistrationTest.java:81)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -394,7 +394,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validfirstnamewithcaptialletter -->
-        <test-method status="PASS" signature="takeScreenShotOnFailureAndClosebrowser(org.testng.ITestResult)[pri:0, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="takeScreenShotOnFailureAndClosebrowser" is-config="true" duration-ms="1622" started-at="2020-10-13T11:56:36 EET" finished-at="2020-10-13T11:56:38 EET">
+        <test-method status="PASS" signature="takeScreenShotOnFailureAndClosebrowser(org.testng.ITestResult)[pri:0, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="takeScreenShotOnFailureAndClosebrowser" is-config="true" duration-ms="3191" started-at="2020-10-14T09:37:49 EET" finished-at="2020-10-14T09:37:52 EET">
           <params>
             <param index="0">
               <value>
@@ -405,7 +405,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShotOnFailureAndClosebrowser -->
-        <test-method status="PASS" signature="startdriver(java.lang.String)[pri:0, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="startdriver" is-config="true" duration-ms="8411" started-at="2020-10-13T11:56:38 EET" finished-at="2020-10-13T11:56:46 EET">
+        <test-method status="PASS" signature="startdriver(java.lang.String)[pri:0, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="startdriver" is-config="true" duration-ms="14831" started-at="2020-10-14T09:37:52 EET" finished-at="2020-10-14T09:38:07 EET">
           <params>
             <param index="0">
               <value>
@@ -416,7 +416,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startdriver -->
-        <test-method status="FAIL" signature="validemailexsit(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="validemailexsit" duration-ms="12036" started-at="2020-10-13T11:56:46 EET" data-provider="userdata" finished-at="2020-10-13T11:56:58 EET">
+        <test-method status="FAIL" signature="validemailexsit(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="validemailexsit" duration-ms="17059" started-at="2020-10-14T09:38:07 EET" data-provider="userdata" finished-at="2020-10-14T09:38:24 EET">
           <params>
             <param index="0">
               <value>
@@ -452,8 +452,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
 System info: host: 'DESKTOP-D6E6O6F', ip: '192.168.93.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_60'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\sony\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53595}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 43f08cf381ac0128090f5b0767b6e868
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\sony\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53113}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 6d92674d9e7089056a3554402c019b25
 *** Element info: {Using=xpath, value=//div[@class='alert alert-danger']}]]>
             </message>
             <full-stacktrace>
@@ -463,8 +463,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
 System info: host: 'DESKTOP-D6E6O6F', ip: '192.168.93.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_60'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\sony\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53595}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 43f08cf381ac0128090f5b0767b6e868
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\sony\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53113}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 6d92674d9e7089056a3554402c019b25
 *** Element info: {Using=xpath, value=//div[@class='alert alert-danger']}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -483,8 +483,8 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 at com.sun.proxy.$Proxy12.getText(Unknown Source)
-at com.pixelogic.pages.Registerpage.getErrorvalidationMessage(Registerpage.java:80)
-at com.pixelogic.tests.UserRegistrationTest.validemailexsit(UserRegistrationTest.java:97)
+at com.pixelogic.pages.Registerpage.getErrorvalidationMessage(Registerpage.java:79)
+at com.pixelogic.tests.UserRegistrationTest.validemailexsit(UserRegistrationTest.java:90)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -519,7 +519,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validemailexsit -->
-        <test-method status="PASS" signature="takeScreenShotOnFailureAndClosebrowser(org.testng.ITestResult)[pri:0, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="takeScreenShotOnFailureAndClosebrowser" is-config="true" duration-ms="1061" started-at="2020-10-13T11:56:58 EET" finished-at="2020-10-13T11:56:59 EET">
+        <test-method status="PASS" signature="takeScreenShotOnFailureAndClosebrowser(org.testng.ITestResult)[pri:0, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="takeScreenShotOnFailureAndClosebrowser" is-config="true" duration-ms="1691" started-at="2020-10-14T09:38:24 EET" finished-at="2020-10-14T09:38:26 EET">
           <params>
             <param index="0">
               <value>
@@ -530,7 +530,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShotOnFailureAndClosebrowser -->
-        <test-method status="PASS" signature="startdriver(java.lang.String)[pri:0, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="startdriver" is-config="true" duration-ms="7868" started-at="2020-10-13T11:56:59 EET" finished-at="2020-10-13T11:57:07 EET">
+        <test-method status="PASS" signature="startdriver(java.lang.String)[pri:0, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="startdriver" is-config="true" duration-ms="14235" started-at="2020-10-14T09:38:26 EET" finished-at="2020-10-14T09:38:40 EET">
           <params>
             <param index="0">
               <value>
@@ -541,7 +541,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startdriver -->
-        <test-method status="FAIL" signature="validemailexsit(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="validemailexsit" duration-ms="1972" started-at="2020-10-13T11:57:07 EET" data-provider="userdata" finished-at="2020-10-13T11:57:09 EET">
+        <test-method status="FAIL" signature="validemailexsit(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="validemailexsit" duration-ms="1959" started-at="2020-10-14T09:38:40 EET" data-provider="userdata" finished-at="2020-10-14T09:38:42 EET">
           <params>
             <param index="0">
               <value>
@@ -581,7 +581,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:140)
 at org.testng.Assert.assertEquals(Assert.java:122)
 at org.testng.Assert.assertEquals(Assert.java:629)
 at org.testng.Assert.assertEquals(Assert.java:639)
-at com.pixelogic.tests.UserRegistrationTest.validemailexsit(UserRegistrationTest.java:98)
+at com.pixelogic.tests.UserRegistrationTest.validemailexsit(UserRegistrationTest.java:91)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -616,7 +616,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validemailexsit -->
-        <test-method status="PASS" signature="takeScreenShotOnFailureAndClosebrowser(org.testng.ITestResult)[pri:0, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="takeScreenShotOnFailureAndClosebrowser" is-config="true" duration-ms="1398" started-at="2020-10-13T11:57:09 EET" finished-at="2020-10-13T11:57:11 EET">
+        <test-method status="PASS" signature="takeScreenShotOnFailureAndClosebrowser(org.testng.ITestResult)[pri:0, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="takeScreenShotOnFailureAndClosebrowser" is-config="true" duration-ms="1376" started-at="2020-10-14T09:38:42 EET" finished-at="2020-10-14T09:38:43 EET">
           <params>
             <param index="0">
               <value>
@@ -627,7 +627,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShotOnFailureAndClosebrowser -->
-        <test-method status="PASS" signature="startdriver(java.lang.String)[pri:0, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="startdriver" is-config="true" duration-ms="10075" started-at="2020-10-13T11:57:11 EET" finished-at="2020-10-13T11:57:21 EET">
+        <test-method status="PASS" signature="startdriver(java.lang.String)[pri:0, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="startdriver" is-config="true" duration-ms="9375" started-at="2020-10-14T09:38:43 EET" finished-at="2020-10-14T09:38:53 EET">
           <params>
             <param index="0">
               <value>
@@ -638,7 +638,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startdriver -->
-        <test-method status="FAIL" signature="validlastNameNotsameasFirstname(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="validlastNameNotsameasFirstname" duration-ms="13513" started-at="2020-10-13T11:57:21 EET" data-provider="userdata" finished-at="2020-10-13T11:57:34 EET">
+        <test-method status="FAIL" signature="validlastNameNotsameasFirstname(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="validlastNameNotsameasFirstname" duration-ms="12843" started-at="2020-10-14T09:38:53 EET" data-provider="userdata" finished-at="2020-10-14T09:39:05 EET">
           <params>
             <param index="0">
               <value>
@@ -674,8 +674,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
 System info: host: 'DESKTOP-D6E6O6F', ip: '192.168.93.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_60'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\sony\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53680}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 4a69c15e765da89b95f198197bd8334d
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\sony\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53220}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 9574c408b22b77b3c14b42de214da50f
 *** Element info: {Using=xpath, value=//div[@class='alert alert-danger']}]]>
             </message>
             <full-stacktrace>
@@ -685,8 +685,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
 System info: host: 'DESKTOP-D6E6O6F', ip: '192.168.93.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_60'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\sony\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53680}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 4a69c15e765da89b95f198197bd8334d
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\sony\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53220}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 9574c408b22b77b3c14b42de214da50f
 *** Element info: {Using=xpath, value=//div[@class='alert alert-danger']}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -705,8 +705,8 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 at com.sun.proxy.$Proxy12.getText(Unknown Source)
-at com.pixelogic.pages.Registerpage.getErrorvalidationMessage(Registerpage.java:80)
-at com.pixelogic.tests.UserRegistrationTest.validlastNameNotsameasFirstname(UserRegistrationTest.java:107)
+at com.pixelogic.pages.Registerpage.getErrorvalidationMessage(Registerpage.java:79)
+at com.pixelogic.tests.UserRegistrationTest.validlastNameNotsameasFirstname(UserRegistrationTest.java:100)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -741,7 +741,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validlastNameNotsameasFirstname -->
-        <test-method status="PASS" signature="takeScreenShotOnFailureAndClosebrowser(org.testng.ITestResult)[pri:0, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="takeScreenShotOnFailureAndClosebrowser" is-config="true" duration-ms="1082" started-at="2020-10-13T11:57:34 EET" finished-at="2020-10-13T11:57:35 EET">
+        <test-method status="PASS" signature="takeScreenShotOnFailureAndClosebrowser(org.testng.ITestResult)[pri:0, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="takeScreenShotOnFailureAndClosebrowser" is-config="true" duration-ms="1265" started-at="2020-10-14T09:39:05 EET" finished-at="2020-10-14T09:39:07 EET">
           <params>
             <param index="0">
               <value>
@@ -752,7 +752,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShotOnFailureAndClosebrowser -->
-        <test-method status="PASS" signature="startdriver(java.lang.String)[pri:0, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="startdriver" is-config="true" duration-ms="17765" started-at="2020-10-13T11:57:35 EET" finished-at="2020-10-13T11:57:53 EET">
+        <test-method status="PASS" signature="startdriver(java.lang.String)[pri:0, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="startdriver" is-config="true" duration-ms="10442" started-at="2020-10-14T09:39:07 EET" finished-at="2020-10-14T09:39:17 EET">
           <params>
             <param index="0">
               <value>
@@ -763,7 +763,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startdriver -->
-        <test-method status="FAIL" signature="validlastNameNotsameasFirstname(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="validlastNameNotsameasFirstname" duration-ms="2508" started-at="2020-10-13T11:57:53 EET" data-provider="userdata" finished-at="2020-10-13T11:57:56 EET">
+        <test-method status="FAIL" signature="validlastNameNotsameasFirstname(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="validlastNameNotsameasFirstname" duration-ms="2018" started-at="2020-10-14T09:39:17 EET" data-provider="userdata" finished-at="2020-10-14T09:39:19 EET">
           <params>
             <param index="0">
               <value>
@@ -803,7 +803,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:140)
 at org.testng.Assert.assertEquals(Assert.java:122)
 at org.testng.Assert.assertEquals(Assert.java:629)
 at org.testng.Assert.assertEquals(Assert.java:639)
-at com.pixelogic.tests.UserRegistrationTest.validlastNameNotsameasFirstname(UserRegistrationTest.java:108)
+at com.pixelogic.tests.UserRegistrationTest.validlastNameNotsameasFirstname(UserRegistrationTest.java:101)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -838,7 +838,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validlastNameNotsameasFirstname -->
-        <test-method status="PASS" signature="takeScreenShotOnFailureAndClosebrowser(org.testng.ITestResult)[pri:0, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="takeScreenShotOnFailureAndClosebrowser" is-config="true" duration-ms="1058" started-at="2020-10-13T11:57:56 EET" finished-at="2020-10-13T11:57:57 EET">
+        <test-method status="PASS" signature="takeScreenShotOnFailureAndClosebrowser(org.testng.ITestResult)[pri:0, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="takeScreenShotOnFailureAndClosebrowser" is-config="true" duration-ms="1686" started-at="2020-10-14T09:39:19 EET" finished-at="2020-10-14T09:39:21 EET">
           <params>
             <param index="0">
               <value>
@@ -849,7 +849,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShotOnFailureAndClosebrowser -->
-        <test-method status="PASS" signature="startdriver(java.lang.String)[pri:0, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="startdriver" is-config="true" duration-ms="11819" started-at="2020-10-13T11:57:57 EET" finished-at="2020-10-13T11:58:09 EET">
+        <test-method status="PASS" signature="startdriver(java.lang.String)[pri:0, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="startdriver" is-config="true" duration-ms="10492" started-at="2020-10-14T09:39:21 EET" finished-at="2020-10-14T09:39:31 EET">
           <params>
             <param index="0">
               <value>
@@ -860,7 +860,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startdriver -->
-        <test-method status="FAIL" signature="validMobileNumber(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:6, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="validMobileNumber" duration-ms="11970" started-at="2020-10-13T11:58:09 EET" data-provider="userdata" finished-at="2020-10-13T11:58:20 EET">
+        <test-method status="FAIL" signature="validMobileNumber(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:6, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="validMobileNumber" duration-ms="13188" started-at="2020-10-14T09:39:31 EET" data-provider="userdata" finished-at="2020-10-14T09:39:45 EET">
           <params>
             <param index="0">
               <value>
@@ -896,8 +896,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
 System info: host: 'DESKTOP-D6E6O6F', ip: '192.168.93.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_60'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\sony\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53773}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 5a14573f6f02ddf23f0a99cf484bc228
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\sony\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53314}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 61acd6eafe71d4f028af2072b85b8da3
 *** Element info: {Using=xpath, value=//div[@class='alert alert-danger']}]]>
             </message>
             <full-stacktrace>
@@ -907,8 +907,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
 System info: host: 'DESKTOP-D6E6O6F', ip: '192.168.93.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_60'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\sony\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53773}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 5a14573f6f02ddf23f0a99cf484bc228
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\sony\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53314}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 61acd6eafe71d4f028af2072b85b8da3
 *** Element info: {Using=xpath, value=//div[@class='alert alert-danger']}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -927,8 +927,8 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 at com.sun.proxy.$Proxy12.getText(Unknown Source)
-at com.pixelogic.pages.Registerpage.getErrorvalidationMessage(Registerpage.java:80)
-at com.pixelogic.tests.UserRegistrationTest.validMobileNumber(UserRegistrationTest.java:118)
+at com.pixelogic.pages.Registerpage.getErrorvalidationMessage(Registerpage.java:79)
+at com.pixelogic.tests.UserRegistrationTest.validMobileNumber(UserRegistrationTest.java:111)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -963,7 +963,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validMobileNumber -->
-        <test-method status="PASS" signature="takeScreenShotOnFailureAndClosebrowser(org.testng.ITestResult)[pri:0, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="takeScreenShotOnFailureAndClosebrowser" is-config="true" duration-ms="1022" started-at="2020-10-13T11:58:20 EET" finished-at="2020-10-13T11:58:22 EET">
+        <test-method status="PASS" signature="takeScreenShotOnFailureAndClosebrowser(org.testng.ITestResult)[pri:0, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="takeScreenShotOnFailureAndClosebrowser" is-config="true" duration-ms="995" started-at="2020-10-14T09:39:45 EET" finished-at="2020-10-14T09:39:46 EET">
           <params>
             <param index="0">
               <value>
@@ -974,7 +974,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShotOnFailureAndClosebrowser -->
-        <test-method status="PASS" signature="startdriver(java.lang.String)[pri:0, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="startdriver" is-config="true" duration-ms="18425" started-at="2020-10-13T11:58:22 EET" finished-at="2020-10-13T11:58:40 EET">
+        <test-method status="PASS" signature="startdriver(java.lang.String)[pri:0, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="startdriver" is-config="true" duration-ms="10851" started-at="2020-10-14T09:39:46 EET" finished-at="2020-10-14T09:39:56 EET">
           <params>
             <param index="0">
               <value>
@@ -985,7 +985,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startdriver -->
-        <test-method status="FAIL" signature="validMobileNumber(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:6, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="validMobileNumber" duration-ms="1902" started-at="2020-10-13T11:58:40 EET" data-provider="userdata" finished-at="2020-10-13T11:58:42 EET">
+        <test-method status="FAIL" signature="validMobileNumber(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:6, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="validMobileNumber" duration-ms="1959" started-at="2020-10-14T09:39:56 EET" data-provider="userdata" finished-at="2020-10-14T09:39:58 EET">
           <params>
             <param index="0">
               <value>
@@ -1025,7 +1025,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:140)
 at org.testng.Assert.assertEquals(Assert.java:122)
 at org.testng.Assert.assertEquals(Assert.java:629)
 at org.testng.Assert.assertEquals(Assert.java:639)
-at com.pixelogic.tests.UserRegistrationTest.validMobileNumber(UserRegistrationTest.java:119)
+at com.pixelogic.tests.UserRegistrationTest.validMobileNumber(UserRegistrationTest.java:112)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1060,7 +1060,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validMobileNumber -->
-        <test-method status="PASS" signature="takeScreenShotOnFailureAndClosebrowser(org.testng.ITestResult)[pri:0, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="takeScreenShotOnFailureAndClosebrowser" is-config="true" duration-ms="1000" started-at="2020-10-13T11:58:42 EET" finished-at="2020-10-13T11:58:43 EET">
+        <test-method status="PASS" signature="takeScreenShotOnFailureAndClosebrowser(org.testng.ITestResult)[pri:0, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="takeScreenShotOnFailureAndClosebrowser" is-config="true" duration-ms="1681" started-at="2020-10-14T09:39:58 EET" finished-at="2020-10-14T09:40:00 EET">
           <params>
             <param index="0">
               <value>
@@ -1071,7 +1071,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShotOnFailureAndClosebrowser -->
-        <test-method status="PASS" signature="startdriver(java.lang.String)[pri:0, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="startdriver" is-config="true" duration-ms="12917" started-at="2020-10-13T11:58:43 EET" finished-at="2020-10-13T11:58:56 EET">
+        <test-method status="PASS" signature="startdriver(java.lang.String)[pri:0, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="startdriver" is-config="true" duration-ms="9430" started-at="2020-10-14T09:40:00 EET" finished-at="2020-10-14T09:40:10 EET">
           <params>
             <param index="0">
               <value>
@@ -1082,7 +1082,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startdriver -->
-        <test-method status="FAIL" signature="ValidPasswordHasATLeastOneCapitalLetter(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:7, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="ValidPasswordHasATLeastOneCapitalLetter" duration-ms="12769" started-at="2020-10-13T11:58:56 EET" data-provider="userdata" finished-at="2020-10-13T11:59:09 EET">
+        <test-method status="FAIL" signature="ValidPasswordHasATLeastOneCapitalLetter(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:7, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="ValidPasswordHasATLeastOneCapitalLetter" duration-ms="12876" started-at="2020-10-14T09:40:10 EET" data-provider="userdata" finished-at="2020-10-14T09:40:22 EET">
           <params>
             <param index="0">
               <value>
@@ -1118,8 +1118,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
 System info: host: 'DESKTOP-D6E6O6F', ip: '192.168.93.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_60'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\sony\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53874}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: dd070227e7ad6f269ebc498e37f6aa49
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\sony\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53406}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 6e12f18e0039d3a71a5bc933543b10b6
 *** Element info: {Using=xpath, value=//div[@class='alert alert-danger']}]]>
             </message>
             <full-stacktrace>
@@ -1129,8 +1129,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
 System info: host: 'DESKTOP-D6E6O6F', ip: '192.168.93.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_60'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\sony\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53874}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: dd070227e7ad6f269ebc498e37f6aa49
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\sony\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53406}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 6e12f18e0039d3a71a5bc933543b10b6
 *** Element info: {Using=xpath, value=//div[@class='alert alert-danger']}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -1149,8 +1149,8 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 at com.sun.proxy.$Proxy12.getText(Unknown Source)
-at com.pixelogic.pages.Registerpage.getErrorvalidationMessage(Registerpage.java:80)
-at com.pixelogic.tests.UserRegistrationTest.ValidPasswordHasATLeastOneCapitalLetter(UserRegistrationTest.java:128)
+at com.pixelogic.pages.Registerpage.getErrorvalidationMessage(Registerpage.java:79)
+at com.pixelogic.tests.UserRegistrationTest.ValidPasswordHasATLeastOneCapitalLetter(UserRegistrationTest.java:121)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1185,7 +1185,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidPasswordHasATLeastOneCapitalLetter -->
-        <test-method status="PASS" signature="takeScreenShotOnFailureAndClosebrowser(org.testng.ITestResult)[pri:0, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="takeScreenShotOnFailureAndClosebrowser" is-config="true" duration-ms="1032" started-at="2020-10-13T11:59:09 EET" finished-at="2020-10-13T11:59:10 EET">
+        <test-method status="PASS" signature="takeScreenShotOnFailureAndClosebrowser(org.testng.ITestResult)[pri:0, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="takeScreenShotOnFailureAndClosebrowser" is-config="true" duration-ms="1009" started-at="2020-10-14T09:40:22 EET" finished-at="2020-10-14T09:40:23 EET">
           <params>
             <param index="0">
               <value>
@@ -1196,7 +1196,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShotOnFailureAndClosebrowser -->
-        <test-method status="PASS" signature="startdriver(java.lang.String)[pri:0, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="startdriver" is-config="true" duration-ms="14016" started-at="2020-10-13T11:59:10 EET" finished-at="2020-10-13T11:59:24 EET">
+        <test-method status="PASS" signature="startdriver(java.lang.String)[pri:0, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="startdriver" is-config="true" duration-ms="10063" started-at="2020-10-14T09:40:23 EET" finished-at="2020-10-14T09:40:33 EET">
           <params>
             <param index="0">
               <value>
@@ -1207,7 +1207,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startdriver -->
-        <test-method status="FAIL" signature="ValidPasswordHasATLeastOneCapitalLetter(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:7, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="ValidPasswordHasATLeastOneCapitalLetter" duration-ms="3185" started-at="2020-10-13T11:59:24 EET" data-provider="userdata" finished-at="2020-10-13T11:59:27 EET">
+        <test-method status="FAIL" signature="ValidPasswordHasATLeastOneCapitalLetter(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:7, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="ValidPasswordHasATLeastOneCapitalLetter" duration-ms="1968" started-at="2020-10-14T09:40:33 EET" data-provider="userdata" finished-at="2020-10-14T09:40:35 EET">
           <params>
             <param index="0">
               <value>
@@ -1247,7 +1247,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:140)
 at org.testng.Assert.assertEquals(Assert.java:122)
 at org.testng.Assert.assertEquals(Assert.java:629)
 at org.testng.Assert.assertEquals(Assert.java:639)
-at com.pixelogic.tests.UserRegistrationTest.ValidPasswordHasATLeastOneCapitalLetter(UserRegistrationTest.java:129)
+at com.pixelogic.tests.UserRegistrationTest.ValidPasswordHasATLeastOneCapitalLetter(UserRegistrationTest.java:122)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1282,7 +1282,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidPasswordHasATLeastOneCapitalLetter -->
-        <test-method status="PASS" signature="takeScreenShotOnFailureAndClosebrowser(org.testng.ITestResult)[pri:0, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="takeScreenShotOnFailureAndClosebrowser" is-config="true" duration-ms="1017" started-at="2020-10-13T11:59:27 EET" finished-at="2020-10-13T11:59:28 EET">
+        <test-method status="PASS" signature="takeScreenShotOnFailureAndClosebrowser(org.testng.ITestResult)[pri:0, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="takeScreenShotOnFailureAndClosebrowser" is-config="true" duration-ms="1433" started-at="2020-10-14T09:40:35 EET" finished-at="2020-10-14T09:40:37 EET">
           <params>
             <param index="0">
               <value>
@@ -1293,7 +1293,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShotOnFailureAndClosebrowser -->
-        <test-method status="PASS" signature="startdriver(java.lang.String)[pri:0, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="startdriver" is-config="true" duration-ms="9952" started-at="2020-10-13T11:59:28 EET" finished-at="2020-10-13T11:59:38 EET">
+        <test-method status="PASS" signature="startdriver(java.lang.String)[pri:0, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="startdriver" is-config="true" duration-ms="10227" started-at="2020-10-14T09:40:37 EET" finished-at="2020-10-14T09:40:47 EET">
           <params>
             <param index="0">
               <value>
@@ -1304,7 +1304,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startdriver -->
-        <test-method status="FAIL" signature="validpasswordmustatleastsixcharacter(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:8, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="validpasswordmustatleastsixcharacter" duration-ms="12157" started-at="2020-10-13T11:59:38 EET" data-provider="userdata" finished-at="2020-10-13T11:59:50 EET">
+        <test-method status="FAIL" signature="validpasswordmustatleastsixcharacter(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:8, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="validpasswordmustatleastsixcharacter" duration-ms="12979" started-at="2020-10-14T09:40:47 EET" data-provider="userdata" finished-at="2020-10-14T09:41:00 EET">
           <params>
             <param index="0">
               <value>
@@ -1340,8 +1340,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
 System info: host: 'DESKTOP-D6E6O6F', ip: '192.168.93.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_60'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\sony\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53972}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 50b69f44066bdb906bb3fae3ddadc203
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\sony\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53495}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 48f2cb06d670877c1de7be75d53aa409
 *** Element info: {Using=xpath, value=//div[@class='alert alert-danger']}]]>
             </message>
             <full-stacktrace>
@@ -1351,8 +1351,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
 System info: host: 'DESKTOP-D6E6O6F', ip: '192.168.93.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_60'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\sony\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53972}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 50b69f44066bdb906bb3fae3ddadc203
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\sony\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53495}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 48f2cb06d670877c1de7be75d53aa409
 *** Element info: {Using=xpath, value=//div[@class='alert alert-danger']}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -1371,8 +1371,8 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 at com.sun.proxy.$Proxy12.getText(Unknown Source)
-at com.pixelogic.pages.Registerpage.getErrorvalidationMessage(Registerpage.java:80)
-at com.pixelogic.tests.UserRegistrationTest.validpasswordmustatleastsixcharacter(UserRegistrationTest.java:139)
+at com.pixelogic.pages.Registerpage.getErrorvalidationMessage(Registerpage.java:79)
+at com.pixelogic.tests.UserRegistrationTest.validpasswordmustatleastsixcharacter(UserRegistrationTest.java:132)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1407,7 +1407,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validpasswordmustatleastsixcharacter -->
-        <test-method status="PASS" signature="takeScreenShotOnFailureAndClosebrowser(org.testng.ITestResult)[pri:0, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="takeScreenShotOnFailureAndClosebrowser" is-config="true" duration-ms="1029" started-at="2020-10-13T11:59:50 EET" finished-at="2020-10-13T11:59:51 EET">
+        <test-method status="PASS" signature="takeScreenShotOnFailureAndClosebrowser(org.testng.ITestResult)[pri:0, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="takeScreenShotOnFailureAndClosebrowser" is-config="true" duration-ms="1048" started-at="2020-10-14T09:41:00 EET" finished-at="2020-10-14T09:41:01 EET">
           <params>
             <param index="0">
               <value>
@@ -1418,7 +1418,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShotOnFailureAndClosebrowser -->
-        <test-method status="PASS" signature="startdriver(java.lang.String)[pri:0, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="startdriver" is-config="true" duration-ms="12612" started-at="2020-10-13T11:59:51 EET" finished-at="2020-10-13T12:00:04 EET">
+        <test-method status="PASS" signature="startdriver(java.lang.String)[pri:0, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="startdriver" is-config="true" duration-ms="7569" started-at="2020-10-14T09:41:01 EET" finished-at="2020-10-14T09:41:09 EET">
           <params>
             <param index="0">
               <value>
@@ -1429,7 +1429,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startdriver -->
-        <test-method status="PASS" signature="validpasswordmustatleastsixcharacter(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:8, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="validpasswordmustatleastsixcharacter" duration-ms="2010" started-at="2020-10-13T12:00:04 EET" data-provider="userdata" finished-at="2020-10-13T12:00:06 EET">
+        <test-method status="PASS" signature="validpasswordmustatleastsixcharacter(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:8, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="validpasswordmustatleastsixcharacter" duration-ms="2001" started-at="2020-10-14T09:41:09 EET" data-provider="userdata" finished-at="2020-10-14T09:41:11 EET">
           <params>
             <param index="0">
               <value>
@@ -1460,7 +1460,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validpasswordmustatleastsixcharacter -->
-        <test-method status="PASS" signature="takeScreenShotOnFailureAndClosebrowser(org.testng.ITestResult)[pri:0, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="takeScreenShotOnFailureAndClosebrowser" is-config="true" duration-ms="837" started-at="2020-10-13T12:00:06 EET" finished-at="2020-10-13T12:00:06 EET">
+        <test-method status="PASS" signature="takeScreenShotOnFailureAndClosebrowser(org.testng.ITestResult)[pri:0, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="takeScreenShotOnFailureAndClosebrowser" is-config="true" duration-ms="685" started-at="2020-10-14T09:41:11 EET" finished-at="2020-10-14T09:41:11 EET">
           <params>
             <param index="0">
               <value>
@@ -1471,7 +1471,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShotOnFailureAndClosebrowser -->
-        <test-method status="PASS" signature="startdriver(java.lang.String)[pri:0, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="startdriver" is-config="true" duration-ms="13046" started-at="2020-10-13T12:00:07 EET" finished-at="2020-10-13T12:00:20 EET">
+        <test-method status="PASS" signature="startdriver(java.lang.String)[pri:0, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="startdriver" is-config="true" duration-ms="11853" started-at="2020-10-14T09:41:11 EET" finished-at="2020-10-14T09:41:23 EET">
           <params>
             <param index="0">
               <value>
@@ -1482,7 +1482,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startdriver -->
-        <test-method status="FAIL" signature="ValidPasswordAndComfirmPasswordMatch(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:9, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="ValidPasswordAndComfirmPasswordMatch" duration-ms="14245" started-at="2020-10-13T12:00:20 EET" data-provider="userdata" finished-at="2020-10-13T12:00:34 EET">
+        <test-method status="FAIL" signature="ValidPasswordAndComfirmPasswordMatch(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:9, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="ValidPasswordAndComfirmPasswordMatch" duration-ms="13011" started-at="2020-10-14T09:41:23 EET" data-provider="userdata" finished-at="2020-10-14T09:41:36 EET">
           <params>
             <param index="0">
               <value>
@@ -1518,8 +1518,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
 System info: host: 'DESKTOP-D6E6O6F', ip: '192.168.93.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_60'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\sony\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54072}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: b3c2ddb26ca700bf7c1fc41460cf479e
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\sony\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53578}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: dbf485eced1ca8e7030f7735a2c60b58
 *** Element info: {Using=xpath, value=//div[@class='alert alert-danger']}]]>
             </message>
             <full-stacktrace>
@@ -1529,8 +1529,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
 System info: host: 'DESKTOP-D6E6O6F', ip: '192.168.93.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_60'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\sony\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54072}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: b3c2ddb26ca700bf7c1fc41460cf479e
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\sony\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53578}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: dbf485eced1ca8e7030f7735a2c60b58
 *** Element info: {Using=xpath, value=//div[@class='alert alert-danger']}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -1549,8 +1549,8 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 at com.sun.proxy.$Proxy12.getText(Unknown Source)
-at com.pixelogic.pages.Registerpage.getErrorvalidationMessage(Registerpage.java:80)
-at com.pixelogic.tests.UserRegistrationTest.ValidPasswordAndComfirmPasswordMatch(UserRegistrationTest.java:149)
+at com.pixelogic.pages.Registerpage.getErrorvalidationMessage(Registerpage.java:79)
+at com.pixelogic.tests.UserRegistrationTest.ValidPasswordAndComfirmPasswordMatch(UserRegistrationTest.java:142)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1585,7 +1585,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidPasswordAndComfirmPasswordMatch -->
-        <test-method status="PASS" signature="takeScreenShotOnFailureAndClosebrowser(org.testng.ITestResult)[pri:0, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="takeScreenShotOnFailureAndClosebrowser" is-config="true" duration-ms="1063" started-at="2020-10-13T12:00:34 EET" finished-at="2020-10-13T12:00:35 EET">
+        <test-method status="PASS" signature="takeScreenShotOnFailureAndClosebrowser(org.testng.ITestResult)[pri:0, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="takeScreenShotOnFailureAndClosebrowser" is-config="true" duration-ms="987" started-at="2020-10-14T09:41:36 EET" finished-at="2020-10-14T09:41:37 EET">
           <params>
             <param index="0">
               <value>
@@ -1596,7 +1596,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShotOnFailureAndClosebrowser -->
-        <test-method status="PASS" signature="startdriver(java.lang.String)[pri:0, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="startdriver" is-config="true" duration-ms="10345" started-at="2020-10-13T12:00:35 EET" finished-at="2020-10-13T12:00:45 EET">
+        <test-method status="PASS" signature="startdriver(java.lang.String)[pri:0, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="startdriver" is-config="true" duration-ms="8957" started-at="2020-10-14T09:41:37 EET" finished-at="2020-10-14T09:41:46 EET">
           <params>
             <param index="0">
               <value>
@@ -1607,7 +1607,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startdriver -->
-        <test-method status="FAIL" signature="ValidPasswordAndComfirmPasswordMatch(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:9, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="ValidPasswordAndComfirmPasswordMatch" duration-ms="2085" started-at="2020-10-13T12:00:45 EET" data-provider="userdata" finished-at="2020-10-13T12:00:47 EET">
+        <test-method status="FAIL" signature="ValidPasswordAndComfirmPasswordMatch(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:9, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="ValidPasswordAndComfirmPasswordMatch" duration-ms="1968" started-at="2020-10-14T09:41:46 EET" data-provider="userdata" finished-at="2020-10-14T09:41:48 EET">
           <params>
             <param index="0">
               <value>
@@ -1647,7 +1647,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:140)
 at org.testng.Assert.assertEquals(Assert.java:122)
 at org.testng.Assert.assertEquals(Assert.java:629)
 at org.testng.Assert.assertEquals(Assert.java:639)
-at com.pixelogic.tests.UserRegistrationTest.ValidPasswordAndComfirmPasswordMatch(UserRegistrationTest.java:150)
+at com.pixelogic.tests.UserRegistrationTest.ValidPasswordAndComfirmPasswordMatch(UserRegistrationTest.java:143)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1682,7 +1682,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidPasswordAndComfirmPasswordMatch -->
-        <test-method status="PASS" signature="takeScreenShotOnFailureAndClosebrowser(org.testng.ITestResult)[pri:0, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="takeScreenShotOnFailureAndClosebrowser" is-config="true" duration-ms="1356" started-at="2020-10-13T12:00:47 EET" finished-at="2020-10-13T12:00:49 EET">
+        <test-method status="PASS" signature="takeScreenShotOnFailureAndClosebrowser(org.testng.ITestResult)[pri:0, instance:com.pixelogic.tests.UserRegistrationTest@37374a5e]" name="takeScreenShotOnFailureAndClosebrowser" is-config="true" duration-ms="1339" started-at="2020-10-14T09:41:48 EET" finished-at="2020-10-14T09:41:50 EET">
           <params>
             <param index="0">
               <value>

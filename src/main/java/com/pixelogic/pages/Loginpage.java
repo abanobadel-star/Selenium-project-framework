@@ -23,9 +23,9 @@ public class Loginpage extends PageBase{   //class inherent from the parent clas
 	
 	public void userlogin(String email, String password) //method to login module
 	{
-		setTextElementText(usernametxtbox,email);  //to send text to element
-		setTextElementText(passwordtxtbox, password);
-		loginbutton.click();
+		setTextElementText(usernametxtbox,email);  //to send text to  email element
+		setTextElementText(passwordtxtbox, password); //to send text to password element
+		loginbutton.click();   //to click on login button
 		//clickonbutton(loginbutton);
 	}
 

@@ -12,7 +12,7 @@ import com.pixelogic.pages.Registerpage;
 
 import Data.ExcelReader;
 
-public class LoginTest extends TestBase{ //class inherat from TestBase "parent"
+public class LoginTest extends TestBase{ //class inherent from TestBase "parent"
 	
 	public LoginTest() throws IOException { //this is constructor
 		super();

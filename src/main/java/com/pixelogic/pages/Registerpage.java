@@ -53,14 +53,14 @@ public class Registerpage extends PageBase { //this class "chlid" inherent from 
 	// method for user registration 
 	public void userregistration(String fname, String lname,String phone,  String email,String password)   
 	{
-		setTextElementText(firstnametxtbox, fname);
-		setTextElementText(lastnametxtbox, lname);
-		setTextElementText(phonenumbertxtbox, phone);
+		setTextElementText(firstnametxtbox, fname); //sent text to fname element
+		setTextElementText(lastnametxtbox, lname); //sent text to lname element
+		setTextElementText(phonenumbertxtbox, phone);  //sent text to phone element
 		setTextElementText(emailtxtbox, randomestring()+"@gmail.com"); //to generate random email
 		//setTextElementText(emailtxtbox, email);
 		setTextElementText(passwordtxtbox,password);
-		setTextElementText(confirmpasswordtxtbox, password);
-		js.executeScript("arguments[0].click();",signupbutton);
+		setTextElementText(confirmpasswordtxtbox, password); //to sent text to password
+		js.executeScript("arguments[0].click();",signupbutton); //to click on signup button
 	}
 
 	

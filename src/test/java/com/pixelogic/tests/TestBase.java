@@ -71,7 +71,7 @@ public class TestBase  {   //this class is the base "parent" for all class test 
 		driver.manage().window().maximize();              //to maximize window 
 	}
 
-	@AfterMethod    //this method take screen shot when test fail and name it with method name and parameter of method
+	@AfterMethod    //this method take screenshot when test fail and name it with method name and parameter of method
 	public void takeScreenShotOnFailureAndClosebrowser(ITestResult testResult) throws IOException { 
 		if (testResult.getStatus() == ITestResult.FAILURE) { 
 			File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE); 
@@ -80,6 +80,7 @@ public class TestBase  {   //this class is the base "parent" for all class test 
 		} 
 		driver.quit();
 	}
+	
 	/*@AfterMethod  //this method take screenshot in failure but override picture if have more than fail 
 	public void ScreenShotonFailureandclosedriver(ITestResult result  ) throws Exception
 	{
@@ -90,6 +91,7 @@ public class TestBase  {   //this class is the base "parent" for all class test 
 		}
 		driver.quit();
 	}*/
+	
 	/*@AfterMethod  //this method take screenshot for all testcases and name it with the data of run
 	public void screenshot() throws IOException
 	{
