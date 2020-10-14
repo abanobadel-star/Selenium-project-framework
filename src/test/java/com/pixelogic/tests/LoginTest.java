@@ -32,7 +32,7 @@ public class LoginTest extends TestBase{ //class inherat from TestBase "parent"
 	}
 
   
-	@Test(dependsOnMethods= {"userregister"},dataProvider="userdata")
+	@Test(dependsOnMethods= {"userregister"},dataProvider="userdata") //method to login user
 	public void usercanlogin(String fname, String lname,String phone,String email ,String password) throws InterruptedException  
 	{
 		registerobject= new Registerpage(driver);

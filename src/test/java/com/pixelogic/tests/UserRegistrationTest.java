@@ -49,13 +49,7 @@ public class UserRegistrationTest extends TestBase { //this class inherat from "
 		String Actualresult=driver.getCurrentUrl();          //actual result from test case
 		Assert.assertEquals(Actualresult, expectedresult);     //compare between expected result and actual result
 		//Assert.assertEquals(driver.getCurrentUrl(),("https://www.phptravels.net/account/"));
-//		registerobject.userlogout();   //method to logout from account page 
-//		loginobject=new Loginpage(driver);
-//		loginobject.userlogin(email, password);
-//		Thread.sleep(1000);
-//		Assert.assertEquals(Actualresult, expectedresult);
-//		Assert.assertEquals(driver.getCurrentUrl(),("https://www.phptravels.net/account/"));
-//		registerobject.userlogout();
+	
 	}
 	 @Test(priority=2) //testcase to signUp API request and save the response 
 		public void getResponseSignUP() throws ClientProtocolException, IOException {
